@@ -9,13 +9,19 @@
 /* Begin PBXBuildFile section */
 		DA38573E2A01EC54006A7242 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA38573D2A01EC54006A7242 /* AppDelegate.swift */; };
 		DA3857402A01EC54006A7242 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA38573F2A01EC54006A7242 /* SceneDelegate.swift */; };
-		DA3857422A01EC54006A7242 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3857412A01EC54006A7242 /* ViewController.swift */; };
+		DA3857422A01EC54006A7242 /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3857412A01EC54006A7242 /* PickerViewController.swift */; };
 		DA3857452A01EC54006A7242 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA3857432A01EC54006A7242 /* Main.storyboard */; };
 		DA3857472A01EC55006A7242 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA3857462A01EC55006A7242 /* Assets.xcassets */; };
 		DA38574A2A01EC55006A7242 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA3857482A01EC55006A7242 /* LaunchScreen.storyboard */; };
 		DA3857552A01EC55006A7242 /* CurrencyConverterAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3857542A01EC55006A7242 /* CurrencyConverterAppTests.swift */; };
 		DA38575F2A01EC55006A7242 /* CurrencyConverterAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA38575E2A01EC55006A7242 /* CurrencyConverterAppUITests.swift */; };
 		DA3857612A01EC55006A7242 /* CurrencyConverterAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3857602A01EC55006A7242 /* CurrencyConverterAppUITestsLaunchTests.swift */; };
+		DA38576E2A01F0D9006A7242 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA38576D2A01F0D9006A7242 /* ListViewController.swift */; };
+		DA3857742A01F67C006A7242 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3857732A01F67C006A7242 /* TabBarController.swift */; };
+		DACC97782A033934005A5038 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACC97772A033934005A5038 /* Model.swift */; };
+		DACC977D2A048ED6005A5038 /* CurrencyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACC977B2A048ED6005A5038 /* CurrencyCell.swift */; };
+		DACC977E2A048ED6005A5038 /* CurrencyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DACC977C2A048ED6005A5038 /* CurrencyCell.xib */; };
+		DACC97802A0885CB005A5038 /* NetworkLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACC977F2A0885CB005A5038 /* NetworkLayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +45,7 @@
 		DA38573A2A01EC54006A7242 /* CurrencyConverterApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CurrencyConverterApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA38573D2A01EC54006A7242 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA38573F2A01EC54006A7242 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DA3857412A01EC54006A7242 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DA3857412A01EC54006A7242 /* PickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
 		DA3857442A01EC54006A7242 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DA3857462A01EC55006A7242 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA3857492A01EC55006A7242 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +55,12 @@
 		DA38575A2A01EC55006A7242 /* CurrencyConverterAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CurrencyConverterAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA38575E2A01EC55006A7242 /* CurrencyConverterAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConverterAppUITests.swift; sourceTree = "<group>"; };
 		DA3857602A01EC55006A7242 /* CurrencyConverterAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConverterAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DA38576D2A01F0D9006A7242 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		DA3857732A01F67C006A7242 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		DACC97772A033934005A5038 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		DACC977B2A048ED6005A5038 /* CurrencyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyCell.swift; sourceTree = "<group>"; };
+		DACC977C2A048ED6005A5038 /* CurrencyCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CurrencyCell.xib; sourceTree = "<group>"; };
+		DACC977F2A0885CB005A5038 /* NetworkLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +113,13 @@
 			children = (
 				DA38573D2A01EC54006A7242 /* AppDelegate.swift */,
 				DA38573F2A01EC54006A7242 /* SceneDelegate.swift */,
-				DA3857412A01EC54006A7242 /* ViewController.swift */,
+				DACC977F2A0885CB005A5038 /* NetworkLayer.swift */,
+				DA3857412A01EC54006A7242 /* PickerViewController.swift */,
+				DA3857732A01F67C006A7242 /* TabBarController.swift */,
+				DACC97772A033934005A5038 /* Model.swift */,
+				DA38576D2A01F0D9006A7242 /* ListViewController.swift */,
+				DACC977B2A048ED6005A5038 /* CurrencyCell.swift */,
+				DACC977C2A048ED6005A5038 /* CurrencyCell.xib */,
 				DA3857432A01EC54006A7242 /* Main.storyboard */,
 				DA3857462A01EC55006A7242 /* Assets.xcassets */,
 				DA3857482A01EC55006A7242 /* LaunchScreen.storyboard */,
@@ -231,6 +249,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DACC977E2A048ED6005A5038 /* CurrencyCell.xib in Resources */,
 				DA38574A2A01EC55006A7242 /* LaunchScreen.storyboard in Resources */,
 				DA3857472A01EC55006A7242 /* Assets.xcassets in Resources */,
 				DA3857452A01EC54006A7242 /* Main.storyboard in Resources */,
@@ -258,8 +277,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA3857422A01EC54006A7242 /* ViewController.swift in Sources */,
+				DA3857422A01EC54006A7242 /* PickerViewController.swift in Sources */,
 				DA38573E2A01EC54006A7242 /* AppDelegate.swift in Sources */,
+				DA38576E2A01F0D9006A7242 /* ListViewController.swift in Sources */,
+				DACC97782A033934005A5038 /* Model.swift in Sources */,
+				DACC97802A0885CB005A5038 /* NetworkLayer.swift in Sources */,
+				DACC977D2A048ED6005A5038 /* CurrencyCell.swift in Sources */,
+				DA3857742A01F67C006A7242 /* TabBarController.swift in Sources */,
 				DA3857402A01EC54006A7242 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
